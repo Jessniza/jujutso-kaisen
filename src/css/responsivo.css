@@ -1,0 +1,113 @@
+@media (max-width:769px) {
+        .shadow::after{
+        background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.7484243697478992) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.7456232492997199) 100%) no-repeat;
+    width: 100vw;
+    }
+
+    .container .personagens .conteudo {
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
+
+    .container .personagens .conteudo .glass {
+        max-width: 50vw;
+    }
+
+    .container .nomePersonagem{
+        font-size: 36px;
+    }
+
+    .conteudo .descricao{
+        max-width: 500px;
+    }
+
+    .button{
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .button .botao img{
+        max-width: 60px;
+    }
+}
+@media (max-width:690px){
+
+    .container .personagens .conteudo {
+        align-items: center;
+        justify-content: center;
+        left: 20rem;
+        top: 12rem;
+        max-width: 100vw;
+    }
+
+    .container .personagens .conteudo .glass {
+        max-width: 80vw;
+        /* height: 18vh; */
+    }
+    .button .botao img{
+        max-width: 80px;
+    }
+
+    .conteudo .logo{
+        width: 28rem;
+    }
+
+}
+@media (max-width:425px){
+
+    .shadow::after{
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 58%, rgba(0,0,0,0) 90%, rgba(0,0,0,0) 100%);
+    }
+
+    .personagens .shadow img{
+        height: 50vh;
+        width: auto;
+    }
+
+    .container .personagens .conteudo {
+        align-items: center;
+        justify-content: center;
+        left: 10rem;
+        top: 6rem;
+        max-width: 100vw;
+    }
+
+    .container .personagens .conteudo .glass {
+        max-width: 80vw;
+        /* height: 24vh; */
+    }
+
+    .container .nomePersonagem{
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .conteudo .descricao{
+        max-width: 500px;
+        height: 20vh;
+    }
+
+    .button{
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+        top: unset;
+    }
+
+    .button .botao img{
+        max-width: 40px;
+    }
+
+    .conteudo .logo{
+        width: 80vw;
+    }
+}
+
